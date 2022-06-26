@@ -1,0 +1,50 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\DELL\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js login
+
+PATH: 
+  C:\Users\DELL\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\DELL\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Users\DELL\AppData\Roaming\npm;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DELL\Documents\flutter_windows_2.10.4-stable\flutter\bin;C:\Program Files\heroku\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: Can't answer a question unless a user TTY
+      at ConsoleReporter.question (C:\Users\DELL\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:92857:59)
+      at C:\Users\DELL\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:33056:33
+      at Generator.next (<anonymous>)
+      at step (C:\Users\DELL\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\DELL\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:328:14
+      at new Promise (<anonymous>)
+      at new F (C:\Users\DELL\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:5301:28)
+      at C:\Users\DELL\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:307:12
+      at getCredentials (C:\Users\DELL\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:33077:17)
+      at Object.<anonymous> (C:\Users\DELL\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:33185:11)
+
+npm manifest: 
+  {
+    "name": "animate-framer-motion",
+    "version": "1.0.0",
+    "dependencies": {
+      "framer-motion": "^6.3.15",
+      "react-intersection-observer": "^9.3.4"
+    },
+    "description": "Framer-Motion animations using intersection-observer",
+    "main": "src/index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Efraimjer",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
